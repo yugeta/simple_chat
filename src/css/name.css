@@ -1,0 +1,42 @@
+#name{
+  --radius: 10px;
+  display:flex;
+  gap:0;
+}
+
+#name [name="my_name"]{
+  width:200px;
+}
+#name button{
+  width:80px;
+}
+
+#name *{
+  border-style: solid;
+  border-color:black;
+  border-width:1px 0 1px 1px;
+  outline:none;
+  padding:10px;
+}
+
+#name > *:first-child{
+  border-top-left-radius:var(--radius);
+  border-bottom-left-radius:var(--radius);
+}
+
+#name > *:last-child{
+  border-right-width:1px;
+  border-top-right-radius:var(--radius);
+  border-bottom-right-radius:var(--radius);
+}
+
+.name.header{
+  margin-left:10px;
+  font-size:16px;
+}
+.name.header:not(:empty)::before{
+  content:"[ ";
+}
+.name.header:not(:empty)::after{
+  content:" ]";
+}

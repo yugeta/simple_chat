@@ -1,0 +1,25 @@
+*, *:before, *:after {
+  -webkit-box-sizing  : border-box;
+     -moz-box-sizing  : border-box;
+       -o-box-sizing  : border-box;
+      -ms-box-sizing  : border-box;
+          box-sizing  : border-box;
+}
+
+section{
+  margin-bottom:20px;
+}
+
+button{
+  cursor:pointer;
+}
+
+button:hover{
+  opacity:0.5;
+}
+
+body{
+  width:800px;
+  max-width:100%;
+  margin:0 auto;
+}

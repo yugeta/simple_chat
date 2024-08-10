@@ -1,0 +1,9 @@
+body[type="name"] #input,
+body[type="name"] #chat,
+body[type="name"] #logout{
+  display:none;
+}
+
+body[type="input"] #name{
+  display:none;
+}
