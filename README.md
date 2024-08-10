@@ -27,5 +27,11 @@ Author : Yugeta.Koji
 - PHP環境
 
 
+# Author
+- Name : Yugeta.Koji
+- Company : MYNT, Inc.
+- Web : https://myntinc.com/
+- Blog : https://blog.myntinc.com/
+
 # Lisence
 - MIT
